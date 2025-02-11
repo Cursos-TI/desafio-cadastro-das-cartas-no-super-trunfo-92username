@@ -8,17 +8,24 @@ int main() {
 
     printf("Digite o codigo da cidade (ex: 1)");
     scanf("%d", &codigoCidade);
+    getchar();
+
     printf("Digite o nome da Cidade: ");
     scanf("%s" , nomeCidade);
+    getchar();
+
     printf("Digite a população da cidade: ");
     scanf ("%d", &populacao);
+    getchar();
     printf("Digite a area da cidade: ");
     scanf("%f", &area);
+    getchar();
     printf("Digite o pib da Cidade: ");
     scanf("%lf", &pib);
     getchar();
     printf("Digite o numero de pontos turisticos da cidade: ");
     scanf("%d", &pontosTuristicos);
+    getchar();
 
     printf("Aqui estão os dados da carta inserida. Confira os dados. \n\nTecle 1 para confirmar, tecle 2 para digitar novamente ou 99 para sair.\n\n");
 
