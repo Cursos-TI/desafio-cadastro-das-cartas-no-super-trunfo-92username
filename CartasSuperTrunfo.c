@@ -10,9 +10,9 @@ int main() {
     scanf("%d", &codigoCidade);
     printf("Digite o nome da Cidade: ");
     scanf("%s" , nomeCidade);
-    printf("Digite a população da cidade (sem pontos, sem vírgulas)");
+    printf("Digite a população da cidade: ");
     scanf ("%d", &populacao);
-    printf("Digite a area da cidade (sem pontos, sem vírgulas)");
+    printf("Digite a area da cidade: ");
     scanf("%f", &area);
     printf("Digite o pib da Cidade (ex: 2500,00)");
     scanf("%lf", &pib);
