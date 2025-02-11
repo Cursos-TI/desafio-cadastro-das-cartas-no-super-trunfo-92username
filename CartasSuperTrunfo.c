@@ -14,8 +14,9 @@ int main() {
     scanf ("%d", &populacao);
     printf("Digite a area da cidade: ");
     scanf("%f", &area);
-    printf("Digite o pib da Cidade (ex: 2500,00)");
+    printf("Digite o pib da Cidade: ");
     scanf("%lf", &pib);
+    getchar();
     printf("Digite o numero de pontos turisticos da cidade: ");
     scanf("%d", &pontosTuristicos);
 
@@ -23,7 +24,7 @@ int main() {
 
     printf("Código da cidade: %d - Nome: %s\n", codigoCidade, nomeCidade);
     printf("População: %d - Área %.2f km²\n", populacao, area);
-    printf("PIB: %.2lf Reais - Pontos Turísticos: %d", pib, pontosTuristicos);
+    printf("PIB: %.2lf Reais - Pontos Turísticos: %d\n", pib, pontosTuristicos);
   
     return 0;
 }
